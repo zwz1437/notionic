@@ -16,15 +16,15 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
-    notes: true,
-    projects: true,
+    newsletter: false,
+    notes: false,
+    projects: false,
     contact: true,
-    books: true,
+    books: false,
     friends: true
   },
-  showWeChatPay: true,
-  previewImagesEnabled: true,
+  showWeChatPay: false,
+  previewImagesEnabled: false,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
